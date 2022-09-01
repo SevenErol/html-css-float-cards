@@ -19,14 +19,64 @@
     padding: 2.5rem;
 }
 
-#site_header > h1 {
+#site_header>h1 {
     color: var(--title-color);
     padding-bottom: 1rem;
     font-family: 'Lobster', cursive;
     font-size: 3rem;
 }
 
-#site_header > p {
+#site_header>p {
     font-family: 'Source Serif Pro', serif;
 }
+
 /* #endregion header  */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col_3 {
+    width: calc(100% / 3);
+    float: left;
+    box-shadow: 0rem 0rem 0.25rem 0.25rem grey;
+}
+
+img {
+    max-height: 100%;
+    float: left;
+    vertical-align: middle;
+}
+
+.profile {
+    height: 120px;
+    background-color: black;
+    
+}
+
+.info {
+    display: inline-block;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.name  {
+    margin-bottom: 0.75rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.work_position {
+    margin-bottom: 0.75rem;
+    color: white;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
