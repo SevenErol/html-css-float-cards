@@ -1,5 +1,9 @@
 :root {
     --title-color: red;
+    --writing-color: white;
+    --email-color: aqua;
+    --hover-color: burlywood;
+
 }
 
 * {
@@ -42,41 +46,45 @@
     width: calc(100% / 3);
     float: left;
     box-shadow: 0rem 0rem 0.25rem 0.25rem grey;
+    margin-bottom: 4rem;
 }
 
 img {
     max-height: 100%;
     float: left;
-    vertical-align: middle;
 }
 
 .profile {
     height: 120px;
     background-color: black;
-    
+   
 }
 
 .info {
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 1rem;
 }
 
 .name  {
     margin-bottom: 0.75rem;
-    color: white;
+    color: var(--writing-color);
     font-family: 'Oswald', sans-serif;
 }
 
 .work_position {
     margin-bottom: 0.75rem;
-    color: white;
+    color: var(--writing-color);
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-size: 1.25rem;
 }
 
 a {
     text-decoration: none;
-    color: aqua;
+    color: var(--email-color);
+}
+
+a:hover {
+    color: var(--hover-color);
 }
 
