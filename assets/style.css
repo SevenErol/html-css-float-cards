@@ -1,0 +1,32 @@
+:root {
+    --title-color: red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* #region header  */
+#site_header {
+    text-align: center;
+    padding: 2.5rem;
+}
+
+#site_header > h1 {
+    color: var(--title-color);
+    padding-bottom: 1rem;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+
+#site_header > p {
+    font-family: 'Source Serif Pro', serif;
+}
+/* #endregion header  */
