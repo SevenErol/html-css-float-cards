@@ -45,24 +45,24 @@
 .col_3 {
     width: calc(100% / 3);
     float: left;
-    box-shadow: 0rem 0rem 0.25rem 0.25rem grey;
     margin-bottom: 4rem;
+    padding: 1rem;
 }
 
 img {
     max-height: 100%;
     float: left;
+    margin-right: 1rem;
 }
 
 .profile {
     height: 120px;
     background-color: black;
-   
+    box-shadow: 0rem 0rem 0.25rem 0.25rem grey;
 }
 
 .info {
-    display: inline-block;
-    margin-left: 1rem;
+    margin-left: 3rem;
     padding: 1rem;
 }
 
